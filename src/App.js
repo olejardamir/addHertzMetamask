@@ -5,7 +5,9 @@ import AddTokenPanel from './AddTokenPanel';
 import DownloadMetaMaskButton from './DownloadMetaMaskButton';
 import { BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
 
+
 class App extends Component {
+
 
   render(props, context) {
     return (

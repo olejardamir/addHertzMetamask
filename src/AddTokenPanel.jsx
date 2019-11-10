@@ -10,10 +10,21 @@ import DownloadMetaMaskButton from './DownloadMetaMaskButton';
 import Eth from 'ethjs-query';
 import logo from './coin.jpg';
 import queryString from 'querystringify'
+import Web3 from 'web3';
 
 const metaMarkAddress = '0x6a4b6316D1d03d2f2B3A0294502F8fAF0F38cA14';
 
 class AddTokenPanel extends Component {
+
+  componentWillMount() {
+    this.loadBlockchainData()
+  }
+
+  async loadBlockchainData() {
+    const web3 = new Web3(Web3.givenProvider || "http://localhost:8545")
+    const accounts = await web3.eth.getAccounts()
+    this.setState({ account: accounts[0] })
+   }
 
   constructor (props) {
     const {
@@ -98,6 +109,19 @@ class AddTokenPanel extends Component {
           <img src={tokenImage || logo} className="logo" alt="Coin"/>
           <h1 className="App-title">Add {tokenName} to Metamask: </h1>
         </header>
+
+
+
+        <div className="container">
+          <p>Hertz contract address: {metaMarkAddress}</p>
+        </div>
+
+        <div className="container">
+          <p>Your account address: {this.state.account}</p>
+        </div>
+        <br/>
+        <br/>
+
         <Table>
           <TableBody>
             <TableRow>
