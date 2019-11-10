@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "711888630c07d5e3c9954c10763b3ca3",
+    "revision": "64830f8cf881b408050a9f562de32c09",
     "url": "/addHertzMetamask/index.html"
   },
   {
-    "revision": "5917f90e046c00c806c4",
+    "revision": "0bce177d999bdb7bc784",
     "url": "/addHertzMetamask/static/css/main.32d1f9de.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/addHertzMetamask/static/js/2.428bf56b.chunk.js"
   },
   {
-    "revision": "5917f90e046c00c806c4",
-    "url": "/addHertzMetamask/static/js/main.f83f2111.chunk.js"
+    "revision": "0bce177d999bdb7bc784",
+    "url": "/addHertzMetamask/static/js/main.ce2ad3d4.chunk.js"
   },
   {
     "revision": "f0a8be4e661068732710",
