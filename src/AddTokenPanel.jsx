@@ -152,6 +152,10 @@ class AddTokenPanel extends Component {
         <p>{message}</p>
         {error}
 
+        <div>
+          <a href="https://github.com/olejardamir/addHertzMetamask" >Click here to see the source-code</a>
+        </div>
+
         <div className="spacer"></div>
 
 
