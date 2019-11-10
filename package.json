@@ -21,13 +21,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "publish": "npm run deploy"
-  },
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+   },
   "devDependencies": {
     "gh-pages": "^2.1.1"
   },
