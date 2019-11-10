@@ -29,7 +29,7 @@
     "publish": "npm run deploy"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^2.1.1"
   },
   "browserslist": {
     "production": [
