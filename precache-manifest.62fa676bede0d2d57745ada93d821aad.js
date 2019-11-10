@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1ab39fd1473cca6768526daa1536a3c",
+    "revision": "711888630c07d5e3c9954c10763b3ca3",
     "url": "/addHertzMetamask/index.html"
   },
   {
-    "revision": "1656bc7b443dd814cc67",
+    "revision": "5917f90e046c00c806c4",
     "url": "/addHertzMetamask/static/css/main.32d1f9de.chunk.css"
   },
   {
-    "revision": "c9a620998f1712f87f2f",
-    "url": "/addHertzMetamask/static/js/2.0c699545.chunk.js"
+    "revision": "d3be8d827ec9583d956e",
+    "url": "/addHertzMetamask/static/js/2.428bf56b.chunk.js"
   },
   {
-    "revision": "1656bc7b443dd814cc67",
-    "url": "/addHertzMetamask/static/js/main.741ccbcc.chunk.js"
+    "revision": "5917f90e046c00c806c4",
+    "url": "/addHertzMetamask/static/js/main.f83f2111.chunk.js"
   },
   {
-    "revision": "93064c61ddc1a912e90a",
-    "url": "/addHertzMetamask/static/js/runtime-main.2d0d98e2.js"
+    "revision": "f0a8be4e661068732710",
+    "url": "/addHertzMetamask/static/js/runtime-main.fdbc7c9e.js"
   },
   {
     "revision": "622da729656ea7334051151cbb23e989",

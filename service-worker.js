@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/addHertzMetamask/precache-manifest.d994e79b12b47e64f8867e2873e3e372.js"
+  "/addHertzMetamask/precache-manifest.62fa676bede0d2d57745ada93d821aad.js"
 );
 
 self.addEventListener('message', (event) => {
