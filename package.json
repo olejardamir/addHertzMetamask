@@ -2,7 +2,7 @@
   "name": "token-adder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://metamask.github.io/Add-Token",
+  "homepage": "http://olejardamir.github.io/addHertzMetamask",
   "dependencies": {
     "@material-ui/core": "^3.0.0",
     "etherscan-link": "^1.0.3",
