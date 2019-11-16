@@ -182,8 +182,11 @@ class AddTokenPanel extends Component {
             }}
             >Go to Hertz DApp for Token Exchange</Button>
         <br/>
+        <br/>
+        <br/>
+        <br/>
 
-        
+
         <div>
           <a href="https://github.com/olejardamir/addHertzMetamask" >Click here to see the source-code</a>
         </div>
