@@ -170,15 +170,26 @@ class AddTokenPanel extends Component {
                 })
               })
             }}
-          >Click here to add to MetaMask</Button>
+          >Click here to add Hertz to MetaMask</Button>
+        </div>
+        <br/>
+
+
+
+        <Button
+            onClick = {async (event) => {
+              document.location.href='https://hertztrade.herokuapp.com/';
+            }}
+            >Go to Hertz DApp for Token Exchange</Button>
+        <br/>
+
+        
+        <div>
+          <a href="https://github.com/olejardamir/addHertzMetamask" >Click here to see the source-code</a>
         </div>
 
         <p>{message}</p>
         {error}
-
-        <div>
-          <a href="https://github.com/olejardamir/addHertzMetamask" >Click here to see the source-code</a>
-        </div>
 
         <div className="spacer"></div>
 
